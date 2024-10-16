@@ -1,0 +1,13 @@
+use backend;
+
+
+CREATE TABLE filtered_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    x_data FLOAT,
+    y_data FLOAT,
+    z_data FLOAT,
+    data_index INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+select * from filtered_data ;
